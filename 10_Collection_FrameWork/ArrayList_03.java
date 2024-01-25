@@ -12,6 +12,7 @@ public class ArrayList_03 {
               list.add("Md Imran alam");
               list.add("Md Asad alam");
               list.add("Md Raja alam");
+              list.add("Md Arman Ansari");
 
         // Remove data from the ArrayList
         list.remove("Md Imran Alam");
