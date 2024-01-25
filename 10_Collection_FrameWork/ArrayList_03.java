@@ -25,6 +25,9 @@ public class ArrayList_03 {
         // Set value for a element
         list.set(2,"Md Rahat Ali");
 
+        // check the size of ArrayList
+        System.out.println(list);
+
         // for print all value
 
         Iterator<String> it= list.iterator();
