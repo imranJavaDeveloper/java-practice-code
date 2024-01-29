@@ -14,6 +14,5 @@ public class Exeception_handlin1 {
         int d=a+b;
         System.out.println(" Addition of a+b="+d);
 
-
     }
 }
