@@ -31,6 +31,7 @@ public class Coustamize_Sorting {
 
         Collections.sort(list,it);
                 System.out.println(list);
+                System.out.println("thnaks");
 
 
     }
