@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.ListIterator;
 
-public class ArrayList_05 {
+public class ArrayList_String_05 {
     public static void main(String[] args) {
 
         ArrayList<String> str= new ArrayList<>();

@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayList_02 {
+public class ArrayList_Iterator {
     public static void main(String[] args) {
 
         ArrayList l= new ArrayList();

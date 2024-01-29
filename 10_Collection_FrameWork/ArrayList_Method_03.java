@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayList_03 {
+public class ArrayList_Method_03 {
     public static void main(String[] args) {
 
         // create ArrayList
