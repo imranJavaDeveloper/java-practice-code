@@ -1,4 +1,3 @@
-package String.com.furkan;
 
 import java.sql.SQLOutput;
 
