@@ -1,34 +1,24 @@
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Iterator;
 
 public class ArrayList_01 {
-    public static void main(String[] args) {
+    public static void main(String args[]){
 
-        // Create ArrayList and show all element
+// Q1. Write a Java program to create an array list, add some colors (strings) and print out the collection.
+        ArrayList<String> list= new ArrayList<>();
+        list.add("Black");
+        list.add("white");
+        list.add("pink");
+        list.add("Maroon");
+        list.add("Brown");
+        list.add("Green");
 
-        ArrayList<Integer> list= new ArrayList<>(10);
-        // create String ArrayList
-        ArrayList<String> str=new ArrayList<>();
-        // Add element
-           list.add(10);
-           list.add(20);
-           list.add(30);
-           list.add(40);
-           list.add(50);
-           list.add(60);
-           list.add(70);
+        // print all colors name one by one Using the iterator
 
-           //Add String type value 
-           str.add("mran");
-           str.add("Raja");
-           str.add("Atif");
-           str.add("Adil");
-           str.add("Shahid");
-           // show all String type data
-           System.out.println(str);
-           // show all Integer type data
-        System.out.println(list);
-
+        Iterator<String> it= list.iterator();
+         while (it.hasNext()){
+             System.out.println(it.next());
+         }
     }
 }
