@@ -1,4 +1,3 @@
-package furkan;
 
 public class Lecture_05_Yeild2 extends Thread{
     public void run(){
