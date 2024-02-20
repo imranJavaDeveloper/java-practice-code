@@ -1,5 +1,4 @@
 
-
 public class Anonymous_Lambda {
     public static void main(String[] args) {
         /* which is good Anonymous class ye Lambda Expression
