@@ -1,4 +1,4 @@
-
+ 
 public interface Fuctional_Interface_03 {
     public void m1(int a,int b);
 }
