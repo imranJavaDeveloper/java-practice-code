@@ -6,7 +6,8 @@ public class Static_Variable_Example_4 {
    static int b;
 
     public static void main(String[] args) {
-        System.out.println(b); // direct use variable name
+        System.out.println(b); 
+        // direct use variable name
         System.out.println(Static_Variable_Example_4.b); // access using the class name
 
         Static_Variable_Example_4 obj= new Static_Variable_Example_4(); // access using create object and assing there value
