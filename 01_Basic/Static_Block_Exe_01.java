@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class Static_Block_Exe_01 {
