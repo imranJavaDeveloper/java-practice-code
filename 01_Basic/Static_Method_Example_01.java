@@ -1,6 +1,4 @@
 
-import java.lang.ref.PhantomReference;
-
 public class Static_Method_Example_01 {
     private int id;
     private int age;
