@@ -1,7 +1,4 @@
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import java.sql.SQLOutput;
-
 public class Static_block {
     // create a constructor
 
