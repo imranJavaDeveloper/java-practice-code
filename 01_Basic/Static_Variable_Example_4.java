@@ -1,5 +1,4 @@
 
-
 public class Static_Variable_Example_4 {
     // Static create one copy and share this copy for all object
     // non - static variable create multiple copy denpend on object
