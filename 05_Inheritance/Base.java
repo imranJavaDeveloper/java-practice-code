@@ -1,6 +1,8 @@
 
 
 public class Base {
+    
+    // create m1 method
     public void m1(){
         System.out.println("base class method called");
     }
@@ -8,6 +10,7 @@ public class Base {
     
 }
 class Drived extends Base{
+    // override m1 method
     public void m1(){
         System.out.println("Drived class method called");
     };
