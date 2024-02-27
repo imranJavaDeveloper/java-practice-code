@@ -25,7 +25,7 @@ class Teacher extends Student2{
     }
 
     Teacher(String name, int roll) {
-        // call parent call instace variable using super 
+        // call parent call instace variable using super
         super(name, roll);
     }
 
