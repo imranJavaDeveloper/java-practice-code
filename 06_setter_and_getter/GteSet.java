@@ -6,18 +6,20 @@ public class GteSet {
 
     private int roll;
 
-    //  method 1 getter
+    //  getter
     public String getName()
     {
         return name;
     }
-    //  method 2 setter
+    //  setter
     public void setName(String name){
           this.name=name;
     }
+    // setter
     public void setRoll(int roll){
         this.roll=roll;
     }
+    // getter
     public int getroll(){
         return roll;
     }
