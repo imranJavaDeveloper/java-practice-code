@@ -1,5 +1,7 @@
 
 public class Student2 {
+
+    // instance variable
     String name;
     int roll;
 
@@ -23,6 +25,7 @@ class Teacher extends Student2{
     }
 
     Teacher(String name, int roll) {
+        // call parent call instace variable using super 
         super(name, roll);
     }
 
