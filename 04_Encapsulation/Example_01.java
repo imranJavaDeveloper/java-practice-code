@@ -15,7 +15,7 @@ public class Example_01 {
     }
 
 
-    // Create add method for float
+    // Create add method for String 
 
     public void add(String str1, String str2){
         String str3=str1+str2;
@@ -24,6 +24,7 @@ public class Example_01 {
 
     public static void main(String[] args) {
 
+        // create object and call all method
         Example_01 obj= new Example_01();
         obj.add(12,45);
         obj.add(45.5f,785.5f);
