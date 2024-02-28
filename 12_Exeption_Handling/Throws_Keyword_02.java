@@ -1,4 +1,3 @@
-package execption_handling;
 
 public class Throws_Keyword_02 {
 

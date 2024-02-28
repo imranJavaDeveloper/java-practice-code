@@ -1,4 +1,4 @@
-package Exeption_Handling;
+
 
 public class FurkanException  extends Exception{
 
