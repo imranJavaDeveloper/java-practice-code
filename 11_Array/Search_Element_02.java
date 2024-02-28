@@ -9,7 +9,8 @@ public class Search_Element_02 {
 
         System.out.println("enter the size of Array");
         int size=sc.nextInt();
-
+        
+        // create Actual Array
         String name[]= new String[size];
 
         // create for loop for accepting all string
