@@ -1,9 +1,8 @@
 
 import java.util.Scanner;
-
 public class InSufficentBalanceExecption extends Exception{
 
-
+ 
     public InSufficentBalanceExecption(String s) {
         super(s);
     }
