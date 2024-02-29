@@ -2,8 +2,9 @@
 import java.util.Scanner;
 public class InSufficentBalanceExecption extends Exception{
 
- 
+   // create a constructor 
     public InSufficentBalanceExecption(String s) {
+    // pass message to the parent execption 
         super(s);
     }
 
