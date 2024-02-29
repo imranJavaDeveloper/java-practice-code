@@ -4,7 +4,7 @@ import java.io.InterruptedIOException;
 public class Throws_02 {
     public static void main(String[] args) throws InterruptedException {
 
-        // i can handle this Exception try and catch and throws keyword
+        // cheacked  execption handle using the throws or try catch
         Thread.sleep(2000);
 
     }
