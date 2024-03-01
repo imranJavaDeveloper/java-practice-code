@@ -1,4 +1,3 @@
-package Basic;
 
 public class Skip_Sequence {
     public static void main(String[] args) {
