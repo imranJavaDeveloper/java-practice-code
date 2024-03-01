@@ -4,6 +4,7 @@ public class Skip_Sequence {
 
    // five skip sequence 
    // for new line(\n)
+   // for tab space(\t)
         System.out.println("\n");
         System.out.println("\t");
         System.out.println("\r");
