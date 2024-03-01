@@ -3,8 +3,7 @@ public class Skip_Sequence {
     public static void main(String[] args) {
 
    // five skip sequence 
-   // for new line(\n)
-   // for tab space(\t)
+   
         System.out.println("\n");
         System.out.println("\t");
         System.out.println("\r");
