@@ -23,10 +23,5 @@ public class Skip_Sequence {
 
         System.out.println("\\ md imran alam \\");                         //  \md imran alam\
 
-
-        // four ways to various char literal
-
-        char ch=0Xface;
-        System.out.println(ch);
    }
 }
