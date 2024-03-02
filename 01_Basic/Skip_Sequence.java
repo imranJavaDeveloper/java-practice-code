@@ -2,8 +2,7 @@
 public class Skip_Sequence {
     public static void main(String[] args) {
 
-   // five skip sequence 
-   
+
         System.out.println("\n");
         System.out.println("\t");
         System.out.println("\r");
