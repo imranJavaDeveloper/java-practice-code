@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Example_03 {
+public class PositiveNumber {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
