@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exaple_05 {
+public class PrintWeekNumber {
     public static void main(String[] args) {
          Scanner sc= new Scanner(System.in);
 
