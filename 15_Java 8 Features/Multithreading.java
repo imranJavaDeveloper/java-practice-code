@@ -21,5 +21,8 @@ public class Multithreading  implements Runnable{
         for(int i=0;i<5;i++){
             System.out.println("main method called");
         }
+
+        // two thread run parrell
+        // but i cant Accept 
     }
 }
