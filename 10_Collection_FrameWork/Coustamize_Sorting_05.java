@@ -1,4 +1,3 @@
-package collection_framework.com;
 
 import com.sun.security.jgss.GSSUtil;
 
