@@ -1,4 +1,3 @@
-package practice_progrma;
 
 public class Multithrading_With_Lamda {
     public static void main(String[] args) {
