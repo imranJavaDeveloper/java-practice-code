@@ -1,4 +1,3 @@
-package practice_progrma;
 
 import java.util.ArrayList;
 import java.util.Collections;
