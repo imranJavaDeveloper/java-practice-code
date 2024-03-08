@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class Cpmparator_Sorting_WithLambda {
     public static void main(String[] args) {
 
-        // descending order sorting
+        // descending order sorting using the Comparator
 
         ArrayList<Integer> list= new ArrayList<>();
         list.add(45);
