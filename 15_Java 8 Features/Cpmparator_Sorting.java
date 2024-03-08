@@ -9,7 +9,7 @@ public class Cpmparator_Sorting {
     public static void main(String[] args) {
 
  // Natural Sorting using the Comparator
-
+// Comparator use for both Sorting 
         Comparator<Integer> it= new Comparator<Integer>() {
             @Override
             public int compare(Integer i, Integer j) {
