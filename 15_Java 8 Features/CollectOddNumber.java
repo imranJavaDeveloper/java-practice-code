@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class CollectOddNumber {
     public static void main(String[] args) {
-
+        // print only odd number 
         ArrayList<Integer> list = new ArrayList<>();
 
          list.add(45);
