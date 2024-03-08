@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class Cpmparator_Sorting {
     public static void main(String[] args) {
 
+ // Natural Sorting using the Comparator
 
         Comparator<Integer> it= new Comparator<Integer>() {
             @Override
@@ -22,7 +23,7 @@ public class Cpmparator_Sorting {
             }
         };
 
-            // create ArrayList
+            // create ArrayList 
 
         ArrayList<Integer> list= new ArrayList<>();
 
@@ -38,7 +39,6 @@ public class Cpmparator_Sorting {
         Collections.sort(list,it);
         System.out.println(list);
 
-        // Natural oder sorting
 
 
     }
