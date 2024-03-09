@@ -25,12 +25,11 @@ public  class Literal {
          * short value like this = short d=32768 error provide int require short
          */
 
-        /* floating point literal by default double
-         * float f=455.24;  error provide double require float(how i assign double value in float)
-         * float g=455.54f;  this is correct
-         * double d=455.45;  this is correct
-         *  */
-        double d = 456633.55D;
+         //floating point literal by default double
+          float g=455.54f;  //this is correct
+          double d=455.45; // this is correct
+         
+        double d2 = 456633.55D;
         double kal = 4555555555.54d;
         System.out.println(kal);
         System.out.println(d);
