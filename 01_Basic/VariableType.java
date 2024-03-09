@@ -14,9 +14,6 @@ public class VariableType {
 
       public static int a=10;
     public static void main(String[] args) {
-        
-        // types of variable in java
-         
         // Local variable
             
         int num=78;
