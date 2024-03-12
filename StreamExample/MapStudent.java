@@ -35,6 +35,7 @@ public class MapStudent {
 
         // sorted this ArrayList based on marks
         Comparator<MapStudent> com=(I1,I2)->(I1.marks> I2.marks)?1:(I1.marks < I2.marks)?-1:0;
+        // Use Collections.sort() for sorting 
         Collections.sort(student,com);
         System.out.println(student);
 
