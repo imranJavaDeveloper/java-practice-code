@@ -7,6 +7,7 @@ public class MapExe1 {
     public static void main(String[] args) {
 
         ArrayList<String> vehicles= new ArrayList<>();
+        // All element in the ArrayList
         vehicles.add("car");
         vehicles.add("bus");
         vehicles.add("bike");
