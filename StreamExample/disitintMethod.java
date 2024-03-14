@@ -25,7 +25,7 @@ public class disitintMethod {
             lm.add(78);
             lm.add(44);
 
-            // remove duplicate form ArrayList
+            // remove duplicate form ArrayList use disint()
            List<Integer> result=lm.stream().distinct().collect(Collectors.toList());
            System.out.println(result);
 
