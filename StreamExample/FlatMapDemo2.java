@@ -30,7 +30,7 @@ public class FlatMapDemo2 {
         list1.add(new FlatMapDemo2("md Aftab alam",106,78));
         list1.add(new FlatMapDemo2("md Junaid alam",107,90));
 
-
+        // print only name in the list 
         List<String> list2=list1.stream().map(m->m.name).collect(Collectors.toList());
         System.out.println(list2);
     }
