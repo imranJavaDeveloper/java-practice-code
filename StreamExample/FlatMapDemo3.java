@@ -15,7 +15,7 @@ public class FlatMapDemo3 {
         list1.add(22);
         list1.add(86);
         
-        //Add to string into the single list
+        //Add two ArrayList into the single list
         
         List<List <Integer>> list2= new ArrayList<>();
           list2.add(list1);
