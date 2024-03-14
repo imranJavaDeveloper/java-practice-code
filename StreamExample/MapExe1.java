@@ -21,7 +21,7 @@ public class MapExe1 {
 
         List<String> vehicles2=vehicles.stream().map(m->m.toUpperCase()).collect(Collectors.toList());
 
-        // print all string upper case latter
+        // print all screen in upper case
         System.out.println("all string in upper case ");
         System.out.println(vehicles2);
         System.out.println("thank you");
