@@ -15,7 +15,7 @@ public class Predicate_Exampple_04 {
         Predicate<String> name2=(n)->n.length()>5;
 
         // print those name which legnth is upper 5
-
+         // travese the Array And check the Condition
         for(String k:name){
             if (name2.test(k)) {
                 System.out.println(k);
