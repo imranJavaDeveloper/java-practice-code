@@ -12,7 +12,7 @@ public class Predicate_Exampple_04 {
         Predicate<Integer> num=(k)->k%2==0;
         Predicate<Integer> num2=(j)->j>400;
 
-        //traverse ArrayList
+        //traverse ArrayList and check condition
           for (Integer list2 :list){
               if (num.and(num2).test(list2)){
                   System.out.println(list2);
