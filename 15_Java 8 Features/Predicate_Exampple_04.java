@@ -13,6 +13,7 @@ public class Predicate_Exampple_04 {
         Predicate<Integer> num2=(j)->j>400;
 
         //traverse ArrayList and check condition
+        //print onily even number and uppper 400
           for (Integer list2 :list){
               if (num.and(num2).test(list2)){
                   System.out.println(list2);
