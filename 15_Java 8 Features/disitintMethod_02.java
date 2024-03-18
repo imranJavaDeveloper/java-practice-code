@@ -21,6 +21,7 @@ public class disitintMethod_02 {
         list2.add("md Adil alam");
        
         // print the name some natural sorting order 
+        // sorted() method preform nautal sorting order
         List<String> list3=list2.stream().sorted().collect(Collectors.toList());
         System.out.println(list3);
 
