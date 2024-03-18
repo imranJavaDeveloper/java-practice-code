@@ -1,6 +1,8 @@
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class disitintMethod_02 {
@@ -11,6 +13,16 @@ public class disitintMethod_02 {
         // remove duplicate value
         List<Integer> list1=list.stream().distinct().collect(Collectors.toList());
         System.out.println(list1);
+
+        ArrayList<String> list2 = new ArrayList<>();
+        list2.add("md imran alam");
+        list2.add("md frukan alam");
+        list2.add("md raja alam");
+        list2.add("md Adil alam");
+       
+        // print the name some natural sorting order 
+        List<String> list3=list2.stream().sorted().collect(Collectors.toList());
+        System.out.println(list3);
 
     }
 }
