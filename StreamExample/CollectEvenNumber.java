@@ -19,9 +19,10 @@ public class CollectEvenNumber {
         //Print All list 
         System.out.println(" print all list ");
         System.out.println(list);
+        
 
+        // print only enen number in the list 
         List<Integer> list2= list.stream().filter(i->i%2==0).collect(Collectors.toList());
-
         System.out.println("print all even number form the list ");
         System.out.println(list2);
     }
