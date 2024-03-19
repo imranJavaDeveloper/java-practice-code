@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 public class CollectOddNumber {
     public static void main(String[] args) {
 
+        //create Integer ArrayList
         ArrayList<Integer> list = new ArrayList<>();
 
          list.add(45);
@@ -18,13 +19,15 @@ public class CollectOddNumber {
          list.add(75);
          list.add(99);
          list.add(78);
-
+        
+         // print all list 
         System.out.println(" print all list element ");
         System.out.println(list);
 
+        //print only odd number in the list
+        
+
         List<Integer> list2= list.stream().filter(i->(i%2)!=0).collect(Collectors.toList());
-
-
         System.out.println("print only odd number ");
         System.out.println(list2);
     }
