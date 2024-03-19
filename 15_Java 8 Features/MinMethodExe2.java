@@ -2,6 +2,8 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class MinMethodExe2 {
     public static void main(String[] args) {
@@ -18,6 +20,11 @@ public class MinMethodExe2 {
         // find the max value in the list
         Optional r= lt.stream().max((k1,k2)->k1.compareTo(k2));
         System.out.println(r);
+
+
+        // remove duplicate value in the list
+            List<Integer> list=lt.stream().distinct().collect(Collectors.toList());
+            System.out.println(list);
 
     }
 }
