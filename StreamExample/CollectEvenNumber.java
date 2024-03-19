@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class CollectEvenNumber {
     public static void main(String[] args) {
 
-        // create ArrayList
+        // create Integre ArrayList
 
         ArrayList<Integer> list= new ArrayList<>();
         list.add(45);
@@ -15,7 +15,8 @@ public class CollectEvenNumber {
         list.add(24);
         list.add(22);
         list.add(78);
-
+     
+        //Print All list 
         System.out.println(" print all list ");
         System.out.println(list);
 
