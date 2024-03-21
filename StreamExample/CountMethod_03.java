@@ -11,7 +11,7 @@ public class CountMethod_03 {
 
         List<String> list2=Arrays.asList("md adil alam","md sharukh alam");
 
-        // check how many string object present
+        // count string object using count()
         Long list1=list.stream().count();
         System.out.println(list1);
 
