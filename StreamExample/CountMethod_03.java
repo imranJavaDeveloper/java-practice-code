@@ -15,6 +15,7 @@ public class CountMethod_03 {
         Long list1=list.stream().count();
         System.out.println(list1);
 
+        //Add two ArrayList In single list
         List<List<String>> list3=Arrays.asList(list,list2);
 
         List<String> list4=list3.stream().flatMap(x->x.stream()).collect(Collectors.toList());
