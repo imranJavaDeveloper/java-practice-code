@@ -17,7 +17,8 @@ public class CountMethod_03 {
 
         //Add two ArrayList In single list
         List<List<String>> list3=Arrays.asList(list,list2);
-
+         
+        //print two list in single list using the flat map
         List<String> list4=list3.stream().flatMap(x->x.stream()).collect(Collectors.toList());
 
         System.out.println(list4);
