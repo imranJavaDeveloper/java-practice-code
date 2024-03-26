@@ -11,7 +11,7 @@ public class Base {
 }
 class Drived extends Base{
     // override m1 method
-    public void m1(){
+    public void second(){
         System.out.println("Drived class method called");
     };
 }
@@ -19,6 +19,6 @@ class Drived extends Base{
 class Main{
     public static void main(String[] args) {
         Drived obj= new Drived();
-        obj.m1();
+        obj.first();
     }
 }
