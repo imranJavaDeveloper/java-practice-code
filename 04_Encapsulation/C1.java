@@ -4,6 +4,8 @@ public class C1 {
     int x=50;
 }
 class C2 extends C1{
+
+    // override x variable
     int x=40;
     int y=45;
 }
