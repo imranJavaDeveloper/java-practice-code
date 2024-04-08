@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Static_Block_Exe_01 {
 
+    // find the Rate Of Interst
     private int id;
     private String name;
     private double balance;
