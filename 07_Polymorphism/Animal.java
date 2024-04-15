@@ -30,7 +30,7 @@ public class Animal {
 
 
   class Cow extends Animal{
-    // create four method 
+     
     public void animalSound(){
         System.out.println(" moo  moo");
     }
