@@ -1,7 +1,7 @@
 
 
 public class Find_Square {
-
+// make a square function
     public int square(int a){
         int b=a*a;
         System.out.println(" the Square of a :"+b);
