@@ -29,8 +29,7 @@ public class Animal {
   }
 
 
-  class Cow extends Animal{
-     
+  class Cow extends Animal{ 
     public void animalSound(){
         System.out.println(" moo  moo");
     }
