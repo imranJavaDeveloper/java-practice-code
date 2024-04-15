@@ -36,7 +36,6 @@ public class Animal {
   }
 
   class Main{
-
     public static void main(String[] args) {
         
         // create object of a class
