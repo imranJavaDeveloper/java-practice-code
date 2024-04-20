@@ -19,7 +19,6 @@ class Drived extends Base{
 class Main{
     public static void main(String[] args) {
         Drived obj= new Drived();
-        //call parent calss method 
         obj.first();
     }
 }
