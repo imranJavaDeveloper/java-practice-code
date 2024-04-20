@@ -2,7 +2,7 @@
 
 public class Base {
     
-    // create m1 method
+    // Create a method
     public  void first(){
         System.out.println("base class method called");
     }
