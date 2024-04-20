@@ -10,7 +10,7 @@ public class Base {
     
 }
 class Drived extends Base{
-    // override m1 method
+    // create second method
     public   void second(){
         System.out.println("Drived class method called");
     };
