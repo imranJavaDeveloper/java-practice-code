@@ -17,6 +17,6 @@ public class Simple_interest {
 
         float SI=(balance*interest*time)/100;
 
-        System.out.println(" total interest ="+SI);
+    System.out.println(" total interest ="+SI);
     }
 }
