@@ -5,8 +5,8 @@ public class Trenary_Operator {
 
         int a = 20, b = 10, c = 30, Max;
 
-        // result holds max of three
-        // numbers
+        // find the max value
+
         Max = ((a > b) ? (a > c) ? a : c : (b > c) ? b : c);
         System.out.println("Max of three numbers = "+ Max);
     }
