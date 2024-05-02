@@ -12,8 +12,9 @@ public class Static_Variable_Example_3 {
           System.out.println(a); // direct use variable name inside static field
           System.out.println(Static_Variable_Example_3.blance);
           Static_Variable_Example_3 obj = new Static_Variable_Example_3();
-                        obj.name="md imran alam";
-                        System.out.println(name);
+                        
+          obj.name="md imran alam";
+           System.out.println(name);
 
       }
 }
