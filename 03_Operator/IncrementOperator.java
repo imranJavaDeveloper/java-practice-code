@@ -7,8 +7,7 @@ public class IncrementOperator {
 
         // pre increment
         System.out.println(++x);
-
-
+        
         // post increment
         System.out.println(x++);
     }
