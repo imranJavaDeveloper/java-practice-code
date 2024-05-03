@@ -11,6 +11,5 @@ public class IncrementOperator {
 
         // post increment
         System.out.println(x++);
-        
     }
 }
