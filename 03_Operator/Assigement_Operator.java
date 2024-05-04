@@ -1,4 +1,3 @@
-package Operator;
 
 public class Assigement_Operator {
     public static void main(String[] args) {
