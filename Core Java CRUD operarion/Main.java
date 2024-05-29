@@ -15,9 +15,8 @@ public class Main {
         System.out.println("Added user: " + newUser);
 
 
-
         // user second will create
-        User newUser2 = new User();
+        User newUser2 = new newUser2();
         newUser2.setId(9);
         newUser2.setName("md furkan alam");
         newUser2.setEmail("furkan.@gmail.com");
