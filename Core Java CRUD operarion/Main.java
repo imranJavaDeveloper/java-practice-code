@@ -14,27 +14,16 @@ public class Main {
         userDao.addUser(newUser);
         System.out.println("Added user: " + newUser);
 
-
-        // user second will create
-        User newUser2 = new newUser2();
-        newUser2.setId(9);
-        newUser2.setName("md furkan alam");
-        newUser2.setEmail("furkan.@gmail.com");
-        userDao.addUser(newUser2);
-        System.out.println("Added user: " + newUser2);
-
-
-
-//        // Retrieve a user by ID
-//        User user = userDao.getUser(82002);
-//        System.out.println("Retrieved user: " + user);
+        // Retrieve a user by ID
+          User user = userDao.getUser(82002);
+          System.out.println("Retrieved user: " + user);
 
 
         // Update a user
-//        user.setName("M.S.D");
-//        user.setEmail("msd.@gmail.com");
-//        userDao.updateUser(user);
-//        System.out.println("Updated user: " + user);
+        user.setName("M.S.D");
+        user.setEmail("msd.@gmail.com");
+        userDao.updateUser(user);
+         System.out.println("Updated user: " + user);
 
         // Delete a user
         userDao.deleteUser(8);
