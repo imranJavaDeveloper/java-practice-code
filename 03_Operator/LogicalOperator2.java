@@ -1,4 +1,6 @@
-class LogicalOperator2{
+package Operator;
+
+public class LogicalOperator2{
     public static void main(String args[]){
 
          // logical operator example

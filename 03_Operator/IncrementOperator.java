@@ -1,3 +1,4 @@
+package Operator;
 
 public class IncrementOperator {
 
@@ -5,15 +6,18 @@ public class IncrementOperator {
 
         int x=10;
 
-        // pre increment
-        System.out.println(++x);
+        System.out.println("post increment operator="+x);
+        x++;
 
-<<<<<<< HEAD
-        
-=======
+        System.out.println("pre-increment  operator="+x);
+        ++x;
 
->>>>>>> parent of 49222d8 (Update IncrementOperator.java)
-        // post increment
-        System.out.println(x++);
+        System.out.println("post decrement operator="+x);
+         x--;
+
+        System.out.println("pre-decrement operator="+x);
+        --x;
+
+
     }
 }
