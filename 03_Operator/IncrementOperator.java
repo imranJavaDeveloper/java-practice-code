@@ -8,7 +8,11 @@ public class IncrementOperator {
         // pre increment
         System.out.println(++x);
 
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> parent of 49222d8 (Update IncrementOperator.java)
         // post increment
         System.out.println(x++);
     }
