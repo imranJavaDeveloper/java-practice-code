@@ -34,3 +34,27 @@ public interface Account {
     }
     
 }
+
+/**
+ *
+ */
+/**
+ * CurrentAccount 
+ */
+public class CurrentAccount implements Account {
+    private double balance;
+    private double overdraftLimit;
+
+    public CurrentAccount(double initialDeposit, double overdraftLimit) {
+        this.balance = initialDeposit;
+        this.overdraftLimit = overdraftLimit;
+
+}
+public void deposit(double amount) {
+    balance += amount;
+}
+public void withdraw(double amount) {
+    // Check if the balance plus overdraft limit is sufficient to cover the withdrawal
+    if (balance + overdraftLimit >= amount) {
+        balance -= amount;
+    }
