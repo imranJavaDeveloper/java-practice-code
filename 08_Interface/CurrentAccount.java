@@ -58,3 +58,12 @@ public void withdraw(double amount) {
     if (balance + overdraftLimit >= amount) {
         balance -= amount;
     }
+
+    @Override
+    public double getBalance() {
+        return balance;
+    }
+    public void setOverdraftLimit(double overdraftLimit) {
+        this.overdraftLimit = overdraftLimit;
+    }
+}
