@@ -1,4 +1,3 @@
-package operator;
 
 public class Shift_Operator {
     public static void main(String[] args) {
