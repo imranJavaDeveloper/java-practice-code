@@ -1,53 +1,44 @@
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-
+import java.util.function.Predicate;
 public class Student {
 
+    int id;
     String name;
-    int age;
-    int roll;
 
-    // constructor
-    public Student(String name,int age,int roll){
-        this.age=age;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+    public Student(int id, String name){
         this.name=name;
-        this.roll=roll;
+        this.id=id;
     }
-
-    // override toString method
-
-    public String toString(){
-        return name+" "+age+" "+roll;
-    }
+}
+class InnerStudent{
     public static void main(String[] args) {
 
-        // Create ArrayList
-        ArrayList<Student> list= new ArrayList<>();
+        ArrayList<Student> li= new ArrayList<>();
+        li.add(new Student(11,"Arman"));
+        li.add(new Student(51,"shahid"));
+        li.add(new Student(91,"Atif"));
+        li.add(new Student(16,"alfak"));
+        li.add(new Student(17,"imran"));
 
-        list.add(new Student("imran alam",25,1001));
-        list.add(new Student("adil alam",28,1002));
-        list.add(new Student("raja alam",29,1006));
-        list.add(new Student("Mustari khatoon ",22,1005));
-        list.add(new Student("Sabir alam",17,1005));
 
-        // print element one by one using the iterator
-        // preform sorting based on Student age
+        // print those student which student marks above 18
 
-        //Comparator<Student> com=(s1,s2)-> (s1.age< s2.age)?-1:(s1.age>s2.age)?1:0;
+        Predicate<Student> p=(m)->m.id>40;
 
-        // sorting based on Student name based
-        Comparator<Student> com=(s1,s2)-> s1.name.compareTo(s2.name);
-        Collections.sort(list,com);
+        for (Student s: li){
 
-        Iterator<Student> it= list.iterator();
-
-        while (it.hasNext()){
-            System.out.println(it.next());
-        }
+            if (p.test(s)){
+                System.out.println(s);
+            }
+         }
 
     }
 }
-
