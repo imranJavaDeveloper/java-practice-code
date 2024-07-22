@@ -10,6 +10,7 @@ public class Exeception_handlin1 {
 
         int c=a/b;
         System.out.println("division is="+c);
+        System.out.println("exeption come in the line");
 
         int d=a+b;
         System.out.println(" Addition of a+b="+d);
