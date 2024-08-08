@@ -1,5 +1,6 @@
 
 import java.util.*;
+import java.util.HashMap;
 
 public class HasMapSorting {
 
