@@ -1,0 +1,12 @@
+public class FindTheMin{
+    public static void main(String[] args) {
+
+        /** find the max value form the list*/
+
+        List<Integer> list= Arrays.asList(45,25,78,69,4,585,68,98);
+
+        /** sorted the list and find the max value form the list*/
+        List<Integer> list2= list.stream().sorted((i,j)->(i<j)?-1:(i>j)?+1:0).limit(1).collect(Collectors.toList());
+
+        System.out.println(list2);
+}
