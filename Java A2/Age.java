@@ -8,8 +8,11 @@ public class Age {
         System.out.println("Enter your Age");
         int age= sc.nextInt();
 
+
+        // check age your age is above 18
         if (age<18){
             System.out.println("you must be at least 18 years old to donate blood");
+             // check age your age is above 18
         } else if (age>=18) {
             System.out.println("Enter your Weight ");
             float weight=sc.nextFloat();
