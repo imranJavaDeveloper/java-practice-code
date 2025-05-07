@@ -11,6 +11,7 @@ public class ArrayList_01 {
         list.add("white");
         list.add("pink");
         list.add("Maroon");
+        
         list.add("Brown");
         list.add("Green");
 
